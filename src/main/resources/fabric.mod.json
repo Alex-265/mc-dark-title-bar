@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "darkwindowtitle",
+  "version": "${version}",
+  "name": "darkWindowTitle",
+  "description": "Makes the Window title bar dark",
+  "authors": ["Alex_265"],
+  "contact": {
+    "repo": "https://github.com/Alex/darkWindowTitle"
+  },
+  "license": "MIT",
+  "icon": "assets/darkwindowtitle/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "at.alex.darkwindowtitle.client.DarkWindowTitleClient"
+    ],
+    "main": [
+      "at.alex.darkwindowtitle.DarkWindowTitle"
+    ]
+  },
+  "mixins": [
+    "darkwindowtitle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

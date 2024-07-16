@@ -2,7 +2,6 @@ package at.alex.darkwindowtitle.client.mixin;
 
 
 import at.alex.darkwindowtitle.client.DarkUtils;
-import at.alex.darkwindowtitle.client.DarkWindowTitleClient;
 import com.mojang.blaze3d.platform.Window;
 import net.minecraft.client.Minecraft;
 import org.lwjgl.glfw.GLFWNativeWin32;
@@ -14,9 +13,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(Minecraft.class)
-public class TestMixin {
-    @Shadow @Final private Window window;
-
+public class WindowMixin {
     @Inject(method = "setWindowActive", at = @At("HEAD"))
     public void win_act(boolean bl, CallbackInfo ci) {
         Long window = Minecraft.getInstance().getWindow().getWindow();

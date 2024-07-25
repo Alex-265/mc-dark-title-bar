@@ -1,5 +1,7 @@
 # Dark Window Title Bar
 
+## ONLY WORKS ON WIN11 BUILD 22000 OR HIGHER!
+
 [<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/mod/dark-window-title-bar)
 [<img alt="curseforge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg">](https://www.curseforge.com/minecraft/mc-mods/dark-window-title-bar)
 
